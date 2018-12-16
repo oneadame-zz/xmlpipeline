@@ -1,0 +1,26 @@
+cron:
+- description: "XML Direct to BQ for en-ae"
+  url: /go/en-ae.xml
+  target: product-updater
+  schedule: every 4 hours from 00:00 to 23:50
+  timezone: America/Los_Angeles
+- description: "XML Direct to BQ for en-bh"
+  url: /go/en-bh.xml
+  target: product-updater
+  schedule: every 4 hours from 00:05 to 23:50
+  timezone: America/Los_Angeles
+- description: "XML Direct to BQ for en-kw"
+  url: /go/en-kw.xml
+  target: product-updater
+  schedule: every 4 hours from 00:10 to 23:50
+  timezone: America/Los_Angeles
+- description: "XML Direct to BQ for en-om"
+  url: /go/en-om.xml
+  target: product-updater
+  schedule: every 4 hours from 00:15 to 23:50
+  timezone: America/Los_Angeles
+- description: "XML Direct to BQ for en-sa"
+  url: /go/en-sa.xml
+  target: product-updater
+  schedule: every 4 hours from 00:20 to 23:50
+  timezone: America/Los_Angeles
