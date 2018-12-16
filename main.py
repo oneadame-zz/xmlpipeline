@@ -1,5 +1,5 @@
 """
-AID 2728 XML processing tool
+AID ... XML processing tool
 Adds to BigQuery Table and Posts to content collector endpoint
 """
 import logging
@@ -145,7 +145,7 @@ class DocumentProcess:
     def update_product_table(self, query):
         """Post Query to GCS"""
         update_query_job = self.gcs.query(query)
-#
+
         # Query Result
         return update_query_job.result()
 
